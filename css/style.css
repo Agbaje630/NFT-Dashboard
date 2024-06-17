@@ -270,8 +270,8 @@ input {
 
 
 .nft {
+    width: 100%;
     display: flex;
-    flex-direction: column;
     margin: 24px 24px;
     background-image: url(../assets/image/Rectangle\ 359.png);
     background-repeat: no-repeat;
@@ -281,6 +281,7 @@ input {
 }
 
 .nft_head {
+    width: 100%;
     height: 100%;
     padding-top: 32px;
 }
@@ -306,17 +307,18 @@ input {
 }
 
 .icon {
-    position: relative;
-    top: -250px;
-    left: 310px;
+     position: relative; 
+     top: -30px;
+     left: -30px;   
 }
 
 .icon img {
-    width: 45%;
-    height: 45%;
+    width: 115%;
+    height: 115%;
 }
 
 .trending {
+    margin-top: 5px;
     padding-left: 24px;
 }
 
@@ -346,9 +348,7 @@ input {
 
 .arts_left img, .arts_center img, .arts_right img  {
     width: 100%;
-    height: 50%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    height: 60%;
 }
 
 
@@ -452,7 +452,7 @@ input {
     height: 20%;
 }
 
-.right {
+ .right {
     margin: 20px 20px;
 }
 .auction {
@@ -623,13 +623,14 @@ input {
     border: none;
     background-color:  rgba(47, 128, 237, 1) ;
     color: white;
-}
+} 
 
 
 
 
 @media only screen and (max-width:668px)
 {
+    
     .side_menu {
         display: none;
     }
@@ -647,7 +648,8 @@ input {
     }
 
     .nft{
-        width: 450px;
+        width: 100%;
+        height: 30%;
         background-image: url(../assets/image/Rectangle\ 359.png);
     }
 
@@ -665,31 +667,11 @@ input {
     }
     .icon {
         position: relative;
-        top: -210px;
-        left: 200px;
+        left: -120px;
     }
     .icon img {
-        width: 50%;
-        height: 50%;
-    }
-
-    .trending{
-        margin:0 32px;
-    }
-    .trend_head {
-        padding: 0 32px;
-    }
-
-    .top_collection {
-        width: 85%;
-        margin: 0 32px;
-        padding: 0 24px;
-    }
-    .auction {
-        margin: 0 32px;
-    }
-    .creator {
-        margin: 32px 32px;
+        width: 100%;
+        height: 100%;
     }
 
 
